@@ -1,4 +1,4 @@
-# User Management API 🚀
+# User Management API 
 
 این پروژه یک API برای مدیریت کاربران است که با استفاده از **ASP.NET Core 8**, **Onion Architecture**, **CQRS**, و **JWT Authentication** پیاده‌سازی شده است.
 
@@ -11,7 +11,7 @@
 - **JWT Authentication** برای احراز هویت امن
 - **SSO با Google**
 
-## ⚡ نحوه‌ی راه‌اندازی پروژه
+## نحوه‌ی راه‌اندازی پروژه
 
 1. کلون کردن پروژه:
 
