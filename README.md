@@ -16,3 +16,11 @@
 1. کلون کردن پروژه:
 
 git clone https://github.com/SaeedehArabani/Shariff.git 
+
+2.	ورود به دایرکتوری پروژه:
+3.	نصب وابستگی‌ها:
+dotnet restore
+
+4.	اجرای پروژه:
+cd UserManagement.API
+dotnet run
