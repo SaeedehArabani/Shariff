@@ -1,6 +1,6 @@
 @UserManagement.API_HostAddress = http://localhost:5013
 
-GET {{UserManagement.API_HostAddress}}/weatherforecast/
+GET http://localhost:5013/api/User
 Accept: application/json
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJqdGkiOiJjMTIxM2RlNC0xMTgxLTRlMDktYTdlZC01YTZlNWY4MWZlZmMiLCJleHAiOjE3NDE1MTA1NTUsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NzAxMSIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6NzAxMSJ9.8JjhufIHdflpGAMuFP6lpITrjtie09b9Og73vyT9Djs
 ###

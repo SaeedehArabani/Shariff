@@ -1,10 +1,12 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using UserManagement.Application.DTOs;
 using UserManagement.Domain.Entities;
 using UserManagement.Domain.Interfaces;
 
-namespace UserManagement.API.Controllers;
+namespace UserManagement.API.Controller;
 
+[Authorize]
 [Route("api/[controller]")]
 [ApiController]
 public class UserController : ControllerBase
